@@ -44,3 +44,23 @@ for i in {1..10}
 do
         echo "$number * $i = $((number * i))"
 done
+
+ALL THE FILE FROM THE CORRECT DIRECTORY
+
+#!/bin/bash
+
+for i in *
+do
+        echo $i
+        sleep 2
+done
+
+SCRIPT TO FETCH THE FILE WILL SPECIFIC FILE EXTENTION
+
+#!/bin/bash
+
+for i in *.html
+do
+        echo $i 
+done
+
